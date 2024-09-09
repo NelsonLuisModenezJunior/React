@@ -1,0 +1,23 @@
+ToDo/
+│    todo-backend/
+│    todo-frontend/
+│    │
+│    ├── public/
+│    │   └── index.html
+│    ├── src/
+│    │   ├── assets/          # Para imagens, fontes, e outros arquivos estáticos
+│    │   ├── components/      # Componentes reutilizáveis
+│    │   │   ├── TodoItem.jsx # Componente de item individual da lista de tarefas
+│    │   │   ├── TodoList.jsx # Componente da lista de tarefas
+│    │   │   └── ...          # Outros componentes
+│    │   ├── pages/           # Páginas do projeto (separadas por rotas)
+│    │   │   └── Home.jsx     # Página inicial
+│    │   ├── styles/          # Arquivos de estilo (CSS, SCSS ou Tailwind)
+│    │   │   └── index.css    # Arquivo de estilos global
+│    │   ├── App.jsx          # Componente principal do app
+│    │   ├── index.js         # Ponto de entrada principal
+│    │   └── ...              # Outros arquivos relacionados
+│    ├── tailwind.config.js   # Configuração do Tailwind CSS
+│    ├── postcss.config.js    # Configuração do PostCSS
+│    └── package.json         # Dependências e scripts do projeto
+└──
